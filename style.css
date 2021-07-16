@@ -24,13 +24,13 @@
     }
     .title{
         margin-bottom: 10px;
-        padding-top: 25px;
-        padding-bottom: 25px;
+        padding-top: 33px;
+        padding-bottom: 33px;
         border-radius: 5px;
         text-align: center;
         background-image: url(/src/images/background-slot.png);
         color: #FFFFFF;
-        font-size: 12px;
+        font-size: 36px;
         font-family: Minecraftia;
 
     }
@@ -80,6 +80,7 @@
 	    margin-right: 15px;
         text-align: center;
         display: inline-block;
+        background-size: 150px;
         width: 150px;
         height: 145px;
     }
