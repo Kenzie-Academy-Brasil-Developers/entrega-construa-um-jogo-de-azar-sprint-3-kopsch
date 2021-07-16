@@ -1,0 +1,147 @@
+@font-face {
+    font-family: Minecraftia;
+        src: url(/fonts/Minecraft.ttf);
+    }
+    
+    body{
+        background-image: url(/src/images/background.png);
+        background-size: cover;
+        font-family: Minecraftia;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    main{
+        border-radius: 5px;
+        background-image: url(/src/images/background-interior.png);
+        background-size: cover;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+        height: 100%;
+    }
+    .title{
+        margin-bottom: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        border-radius: 5px;
+        text-align: center;
+        background-image: url(/src/images/background-slot.png);
+        color: #FFFFFF;
+        font-size: 12px;
+        font-family: Minecraftia;
+
+    }
+    .slot-boxes{
+        border-radius: 15px;
+        background-image: url(src/images/background-slot.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        flex-flow: column nowrap;
+    }
+    
+    .title-button:hover {
+        background-color: rgba(100, 100, 255, .45);
+        text-shadow: 2px 2px #202013CC;
+        color: #FFFFA0;
+    }
+    .title-button:active {
+        box-shadow: inset -2px -4px #0004, inset 2px 2px #FFF5;
+    }
+    
+    .title-button {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        height: 40px;
+        width: 50%;
+        cursor: pointer;
+        overflow: hidden;
+        background: #999 url('https://i.ibb.co/rb2TWXL/bgbtn.png') center / cover;
+        image-rendering: pixelated;
+        border: 1px solid #000;
+        font-size: 20pt;
+        padding: 15px;
+        padding-bottom: 0px;
+        color: #DDD;
+        text-shadow: 2px 2px #000A;
+        box-shadow: inset -2px -4px #0006, inset 2px 2px #FFF7;
+    }
+    
+    #slot-1, #slot-2, #slot-3{
+        display: inline-block;
+        margin-top: 5px;
+	    margin-left: 15px;
+	    margin-right: 15px;
+        text-align: center;
+        display: inline-block;
+        width: 150px;
+        height: 145px;
+    }
+    
+    .a1{
+        background-image: url("src/images/eye.png");
+    }
+    
+    .a2{
+        background-image: url("src/images/sword1.png");
+    }
+    
+    .a3{
+        background-image: url("src/images/sword2.png");
+    }
+    
+    .a4{
+        background-image: url("src/images/sword3.png");
+    }
+    
+    .a5{
+        background-image: url("src/images/sword4.png");
+    }
+    
+    .a6{
+        background-image: url("src/images/sword5.png");
+    }
+    
+    .a7{
+        background-image: url("src/images/sword6.png");
+    }
+
+    @media (min-width: 800px) {
+        body {
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: 190%;
+        }
+
+        .title {
+            margin-bottom: 25px;
+            font-size: 25px;
+        }
+
+        #slot-1, #slot-2, #slot-3 {
+            display: inline-block;
+            margin-top: 5px;
+            margin-left: 15px;
+            margin-right: 15px;
+            background-size: 145px;
+            width: 145px;
+        }
+
+        main {
+            display: block;
+            width: 565px;
+            height: 370px;
+            position: absolute;
+            top: 150px;
+        }
+
+        .slot-boxes{
+            display: block;
+        }
+    }
