@@ -36,7 +36,7 @@
     }
     .slot-boxes{
         border-radius: 15px;
-        background-image: url(".src/images/background-slot.png");
+        background-image: url("./src/images/background-slot.png");
         display: flex;
         justify-content: center;
         align-items: center;
