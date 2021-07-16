@@ -14,10 +14,10 @@ function testWin(){
 	let slotTwo = document.getElementById("slot-2").className
 	let slotThree = document.getElementById("slot-3").className
 
-	if ((slotOne == slotTwo && slotTwo == slotThree) ||
-		(slotOne == slotTwo && slotThree == "a7") ||
-		(slotOne == slotThree && slotTwo == "a7") ||
-		(slotTwo == slotThree && slotOne == "a7") ){
+	if ((slotOne === slotTwo && slotTwo === slotThree) ||
+		(slotOne === slotTwo && slotThree === "a7") ||
+		(slotOne === slotThree && slotTwo === "a7") ||
+		(slotTwo === slotThree && slotOne === "a7") ){
 		titleState.innerHTML = "GANHOU!";
 		winning.play();
 	}else{

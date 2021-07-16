@@ -1,10 +1,10 @@
 @font-face {
     font-family: Minecraftia;
-        src: url(/fonts/Minecraft.ttf);
+        src: url("./fonts/Minecraft.ttf");
     }
     
     body{
-        background-image: url(/src/images/background.png);
+        background-image: url("./src/images/background.png");
         background-size: cover;
         font-family: Minecraftia;
         display: flex;
@@ -13,7 +13,7 @@
     }
     main{
         border-radius: 5px;
-        background-image: url(/src/images/background-interior.png);
+        background-image: url("./src/images/background-interior.png");
         background-size: cover;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -28,7 +28,7 @@
         padding-bottom: 33px;
         border-radius: 5px;
         text-align: center;
-        background-image: url(/src/images/background-slot.png);
+        background-image: url("./src/images/background-slot.png");
         color: #FFFFFF;
         font-size: 36px;
         font-family: Minecraftia;
@@ -36,7 +36,7 @@
     }
     .slot-boxes{
         border-radius: 15px;
-        background-image: url(src/images/background-slot.png);
+        background-image: url(".src/images/background-slot.png");
         display: flex;
         justify-content: center;
         align-items: center;
